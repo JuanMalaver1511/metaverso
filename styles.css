@@ -216,12 +216,39 @@ body.scrolled #collage {
     display: none;
 }
 
+.img_bot{
+    display: none;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
 
-    .content-image{
+    .content-image {
         display: none;
     }
+
+    /* Mostrar y ajustar la imagen */
+    .img_bot {
+        display: block; /* Muestra la imagen en pantallas pequeñas */
+        width: 100%; /* Asegura que ocupe el ancho completo del contenedor */
+        text-align: center; /* Centra la imagen en el contenedor */
+        margin-bottom: 15px; /* Espacio debajo de la imagen */
+    }
+
+    .img_bot img {
+        width: 80%; /* Ajusta el ancho de la imagen para que se mantenga dentro de la pantalla */
+        max-width: 400px; /* Limita el tamaño máximo de la imagen */
+        height: auto; /* Mantiene la proporción */
+        display: block;
+        margin: 0 auto; /* Centra la imagen horizontalmente */
+    }
+
+    /* Asegura que el título esté debajo de la imagen */
+    .title {
+        text-align: center;
+        margin-top: 10px;
+    }
+
     
     nav {
         width: 100%;
@@ -253,7 +280,7 @@ body.scrolled #collage {
         display: block;
         cursor: pointer;
         font-size: 30px;
-        color: white;
+        color: rgb(9, 170, 181);
         position: absolute;
         left: 10px;
         top: 15px;
@@ -278,7 +305,7 @@ body.scrolled #collage {
     }
 
     .menu-icon:hover {
-        color: rgb(89, 163, 167);
+        color: rgb(17, 129, 139);
     }
 
     /* Clase activa para abrir el menú */
