@@ -210,6 +210,10 @@ body.scrolled #collage {
 
 /* Responsive */
 @media (max-width: 768px) {
+
+    .content-image{
+        display: none;
+    }
     nav {
         width: 100%;
         padding: 10px;
@@ -265,7 +269,6 @@ body.scrolled #collage {
     }
     
 }
-
 
 .nav-active ul {
     display: flex; 
