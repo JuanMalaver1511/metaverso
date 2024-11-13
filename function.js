@@ -39,7 +39,7 @@ particlesJS(
                 }
             },
             "size": {
-                "value": 3,
+                "value": 6,
                 "random": true,
                 "anim": {
                     "enable": false,
@@ -134,3 +134,11 @@ window.addEventListener("scroll", function () {
         collage.style.backgroundColor = "transparent";
     }
 });
+
+function toggleMenu() {
+    document.querySelector("nav").classList.toggle("nav-active");
+    document.querySelector('.menu-icon').addEventListener('click', function() {
+        this.classList.add('active');
+        setTimeout(() => this.classList.remove('active'), 300); // Quita la clase después de la animación
+    });
+}
