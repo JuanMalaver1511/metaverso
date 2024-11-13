@@ -80,6 +80,8 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: #ffff;
 }
 
 .botonCampus:hover{
@@ -122,6 +124,12 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+.content-text a{ 
+    margin-top: 15px;
+    text-decoration: none;
+    color: #ffff;
 }
 
 .content-text-col{
@@ -239,6 +247,7 @@ body.scrolled #collage {
         padding: 10px 0;
     }
 
+
     /* Icono de menú para dispositivos móviles */
     .menu-icon {
         display: block;
@@ -275,5 +284,6 @@ body.scrolled #collage {
     /* Clase activa para abrir el menú */
     .nav-active ul {
         max-height: 500px; /* Establece una altura máxima para el menú desplegable */
+        padding-bottom: 15px;
     }
 }
