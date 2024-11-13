@@ -158,11 +158,10 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 130px;
     background-color: transparent; /* Cambiará a blanco al hacer scroll */
     transition: background-color 0.5s ease; /* Transición suave del fondo */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra alrededor del collage */
-    border-radius: 10px;
 }
 
 .image-container {
@@ -196,7 +195,7 @@ body.scrolled #collage {
 .collage-title {
     width: 100%; /* Ocupa todo el ancho del contenedor */
     font-size: 2.5rem;
-    color: #26364d;
+    color: #b4b5b7;
     text-align: center;
     margin: 0 0 30px; /* Espacio inferior para separarlo del collage */
     font-weight: bold;

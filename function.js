@@ -129,7 +129,7 @@ window.addEventListener("scroll", function () {
 
     // Mostrar fondo blanco en el collage después del scroll
     if (scrollY > windowHeight) {
-        collage.style.backgroundColor = "white";
+        collage.style.backgroundColor = "#4d5053";
     } else {
         collage.style.backgroundColor = "transparent";
     }
