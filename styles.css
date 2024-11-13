@@ -161,7 +161,7 @@ nav ul li a:hover {
     padding: 130px;
     background-color: transparent; /* Cambiará a blanco al hacer scroll */
     transition: background-color 0.5s ease; /* Transición suave del fondo */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra alrededor del collage */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .image-container {
@@ -221,6 +221,14 @@ body.scrolled #collage {
 /* Responsive */
 @media (max-width: 768px) {
 
+    #collage{
+        padding: 20px;
+    }
+
+    .collage-title {
+        text-align: center;
+    }
+
     .content-image {
         display: none;
     }
@@ -238,10 +246,10 @@ body.scrolled #collage {
         max-width: 400px; /* Limita el tamaño máximo de la imagen */
         height: auto; /* Mantiene la proporción */
         display: block;
-        margin: 0 auto; /* Centra la imagen horizontalmente */
+        margin: 0 auto; 
     }
 
-    /* Asegura que el título esté debajo de la imagen */
+
     .title {
         text-align: center;
         margin-top: 10px;
