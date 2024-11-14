@@ -161,7 +161,9 @@ nav ul li a:hover {
     padding: 130px;
     background-color: transparent; /* Cambiará a blanco al hacer scroll */
     transition: background-color 0.5s ease; /* Transición suave del fondo */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 .image-container {
@@ -184,7 +186,7 @@ nav ul li a:hover {
 
 .image-container img:hover {
     transform: scale(1.05); 
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.573); 
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.713); 
 }
 
 body.scrolled #collage {
@@ -217,6 +219,44 @@ body.scrolled #collage {
 .img_bot{
     display: none;
 }
+
+/* Estilos para la sección de formulario */
+
+
+
+#formulario {
+    position: relative; 
+    z-index: 10; 
+    background-color: #f2f2f2;
+    padding: 20px;
+    padding-bottom: 50px;
+    margin: 20px auto;
+    max-width: 800px;
+    height: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+/* Estilos para el footer */
+footer {
+    z-index: 10;
+    background-color: #26364d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
+
 
 /* Responsive */
 @media (max-width: 768px) {
