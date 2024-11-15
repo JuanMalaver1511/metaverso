@@ -255,6 +255,28 @@ footer p {
     margin: 0;
 }
 
+.img_footer {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+    z-index: 999;
+}
+
+.social-icons a:hover {
+    color: #00bfff; /* Cambia el color al pasar el cursor */
+}
+
 
 /* Responsive */
 @media (max-width: 768px) {
